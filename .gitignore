@@ -84,3 +84,7 @@ nosetests.xml
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+#Ignore .e4p#
+
+.e4p
