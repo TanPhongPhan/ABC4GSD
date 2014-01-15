@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-4.6.dtd">
+<!-- eric4 project file for project ABCv3 -->
+<!-- Saved: 2011-07-04, 23:52:56 -->
+<!-- Copyright (C) 2011 ,  -->
+<Project version="4.6">
+  <Language>en</Language>
+  <ProgLanguage mixed="0">Python</ProgLanguage>
+  <ProjectType>Qt4</ProjectType>
+  <Description></Description>
+  <Version>0.1</Version>
+  <Author></Author>
+  <Email></Email>
+  <Sources>
+    <Source>__init__.py</Source>
+    <Source>ABCClient.py</Source>
+    <Source>Server.py</Source>
+    <Source>doc/CommProtocol.cfg</Source>
+    <Source>ABCClient.cfg</Source>
+    <Source>Server.cfg</Source>
+    <Source>library/__init__.py</Source>
+    <Source>library/basic_frames/__init__.py</Source>
+    <Source>library/basic_frames/ActivityList.py</Source>
+    <Source>library/basic_frames/ApplicationList.py</Source>
+    <Source>library/basic_frames/ArtifactList.py</Source>
+    <Source>library/basic_frames/ContactList.py</Source>
+    <Source>library/basic_frames/NotificationManager.py</Source>
+    <Source>library/basic_frames/TextEditor.py</Source>
+    <Source>library/client/__init__.py</Source>
+    <Source>library/client/ABCAppInterface.py</Source>
+    <Source>library/client/ClHandler.py</Source>
+    <Source>library/client/Forwarder.py</Source>
+    <Source>library/client/Queue.py</Source>
+    <Source>library/constants/__init__.py</Source>
+    <Source>library/constants/co_abc.py</Source>
+    <Source>library/constants/co_data.py</Source>
+    <Source>library/constants/co_generic.py</Source>
+    <Source>library/constants/co_gui.py</Source>
+    <Source>library/data/__init__.py</Source>
+    <Source>library/data/EntityManager.py</Source>
+    <Source>library/data/ModelManager.py</Source>
+    <Source>library/data/PersistencyInterface.py</Source>
+    <Source>library/data/PersistencyManager.py</Source>
+    <Source>library/server/__init__.py</Source>
+    <Source>library/server/SrvHandler.py</Source>
+    <Source>library/utils/__init__.py</Source>
+    <Source>library/utils/utils.py</Source>
+    <Source>library/utils/gui/__init__.py</Source>
+    <Source>library/utils/gui/DialogBox.py</Source>
+  </Sources>
+  <Forms>
+  </Forms>
+  <Translations>
+  </Translations>
+  <Resources>
+  </Resources>
+  <Interfaces>
+  </Interfaces>
+  <Others>
+  </Others>
+  <Vcs>
+    <VcsType>None</VcsType>
+  </Vcs>
+  <FiletypeAssociations>
+    <FiletypeAssociation pattern="*.ui" type="FORMS" />
+    <FiletypeAssociation pattern="*.idl" type="INTERFACES" />
+    <FiletypeAssociation pattern="*.qm" type="TRANSLATIONS" />
+    <FiletypeAssociation pattern="*.ptl" type="SOURCES" />
+    <FiletypeAssociation pattern="*.pyw" type="SOURCES" />
+    <FiletypeAssociation pattern="*.ui.h" type="FORMS" />
+    <FiletypeAssociation pattern="*.ts" type="TRANSLATIONS" />
+    <FiletypeAssociation pattern="*.py" type="SOURCES" />
+    <FiletypeAssociation pattern="*.qrc" type="RESOURCES" />
+  </FiletypeAssociations>
+</Project>
